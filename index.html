@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PILOT CAMP-3D TOUR</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-pc-main-gate">
+        <li class="text">PC-Main Gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-pc-security-area">
+        <li class="text">PC-Security area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-pc--muster-point">
+        <li class="text">PC- Muster point</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-pc-recreation-zone">
+        <li class="text">PC-Recreation zone</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-pc--smoking-area">
+        <li class="text">PC- Smoking area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-pc--dinner-room">
+        <li class="text">PC- Dinner room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-pc-living-area">
+        <li class="text">PC-Living area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-pc--laundry-area">
+        <li class="text">PC- Laundry area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-pc--sport-area">
+        <li class="text">PC- Sport area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-pc-emergency-gate-living-area">
+        <li class="text">PC-Emergency gate&amp; Living area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-pc--access-road-to-opff">
+        <li class="text">PC- Access road to OPFF</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-pc-parking-area-opf">
+        <li class="text">PC-Parking area OPF</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-pc--opf-living-area">
+        <li class="text">PC- OPF Living area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-pc--opf-guardchack">
+        <li class="text">PC- OPF guardchack</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-pc--sound-side">
+        <li class="text">PC- Sound side</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-pc-southwest-guardchack">
+        <li class="text">PC-Southwest guardchack</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
